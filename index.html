@@ -1,55 +1,63 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Produtos - Barbearia Alura</title>
-
-		<link rel="stylesheet" href="reset.css">
+		<title>Barbearia Alura</title>
+		<link rel="stylesheet" href="style-home.css">
+		<link rel="stylesheet" href="contato.html">
 		<link rel="stylesheet" href="style.css">
+		
 	</head>
-	<body>
-		<header>
-			<div class="caixa">
-				<h1><img src="logo.png"></h1>
 
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
+	<body>
+		<style>
+			.img {
+				width: 450px;
+				height: 650px;
+				object-fit: cover;
+
+		 }
+		</style>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		<header>
+			<h1 class="titulo-principal">Queridodan Fotografia</h1>
 		</header>
 
-		<main>
-			<ul class="produtos">
-				<li>
-					<h2>Ensaio pre-wedding</h2>
-					<img src="">
-					<p class="produto-descricao">Ensaio com duração de até 4 horas, com entrega de todas as fotos sem edição e 30 fotos tratadas em alta resolução.                    </p>
-					<p class="produto-preco">R$ 700,00</p>
-				</li>
-				<li>
-					<h2>Pacote de casamento 1</h2>
-					<img src="">
-					<p class="Pacote de casamento 1">8 Horas de cobertura do evento com um fótografo.</p>
-					<p class="produto-preco">R$ 2500,00</p>
-				</li>
-				<li>
-					<h2>Pacote de casamento 2 </h2>
-					<img src="">
-					<p class="Pacote de casamento 2">Até 12 horas de cobertura do evento com dois fotógrafos.</p>
-					<p class="produto-preco">R$ 3500,00</p>
-				</li>
-			</ul>
-		</main>
+		<img id="banner" src="banner.jpg" class="img">
 
-		<footer>
-			<img src="logo-branco.png">
-			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
-		</footer>
+		<div class="principal">
+			<h2 class="titulo-centralizado">Sobre Queridodan</h2>
+	 
+			<p>Olá, tudo bem? Meu nome é <strong>Daniel Ribeiro</strong>, sou fotógrafo aqui de São Paulo capital, a empresa Queridodan traz para você, uma fotografia maravilhosa, e recordações lindas que vão eternizar momentos.</p>
+
+				<p>Minha missão é: Proporcionar auto-estima e boas lembranças aos meus clientes.
+				
+				Oferecendo um excelente atendimento de excelência, agil e personalizado do inicio ao fim.</p>
+
+			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+		</div>
+
+		<div class="beneficios">
+			<h3 class="titulo-centralizado">Benefícios</h3>
+
+			<ul>
+				<li class="itens">Atendimento aos Clientes</li>
+				<li class="itens">Espaço diferenciado</li>
+				<li class="itens">Localização</li>
+				
+			</ul>
+
+			<img src="casal.jpg" class="img">
+		</div>
+
 	</body>
 </html>
